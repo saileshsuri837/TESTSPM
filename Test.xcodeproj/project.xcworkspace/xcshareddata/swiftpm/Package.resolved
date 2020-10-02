@@ -2,11 +2,11 @@
   "object": {
     "pins": [
       {
-        "package": "MPS",
-        "repositoryURL": "https://github.com/saileshsuri837/MSupport.git",
+        "package": "SwiftPackage",
+        "repositoryURL": "https://github.com/saileshsuri837/SPM.git",
         "state": {
-          "branch": "test",
-          "revision": "3b813eeb2d69061da6a1f3de10914c2c4a07f2a7",
+          "branch": "master",
+          "revision": "66dad2116e0a528d0a18cfb2c6d165fcd3347e81",
           "version": null
         }
       }

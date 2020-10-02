@@ -6,14 +6,14 @@
 //
 
 import UIKit
-import MPS
+import SwiftPackage
+import Payment
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        var session : ReaderInitializeRequest?
+        print(MobilePayment().test)
         // Do any additional setup after loading the view.
     }
 

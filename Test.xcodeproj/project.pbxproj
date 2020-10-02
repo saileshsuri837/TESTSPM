@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B8888B32527517A003717E5 /* SwiftPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 1B8888B22527517A003717E5 /* SwiftPackage */; };
 		1BF7EF232527442A002DE5FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF7EF222527442A002DE5FC /* AppDelegate.swift */; };
 		1BF7EF252527442A002DE5FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF7EF242527442A002DE5FC /* SceneDelegate.swift */; };
 		1BF7EF272527442A002DE5FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF7EF262527442A002DE5FC /* ViewController.swift */; };
@@ -16,7 +17,6 @@
 		1BF7EF322527442C002DE5FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF7EF302527442C002DE5FC /* LaunchScreen.storyboard */; };
 		1BF7EF3D2527442D002DE5FC /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF7EF3C2527442D002DE5FC /* TestTests.swift */; };
 		1BF7EF482527442D002DE5FC /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF7EF472527442D002DE5FC /* TestUITests.swift */; };
-		1BF7EF5A25274469002DE5FC /* MPS in Frameworks */ = {isa = PBXBuildFile; productRef = 1BF7EF5925274469002DE5FC /* MPS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BF7EF5A25274469002DE5FC /* MPS in Frameworks */,
+				1B8888B32527517A003717E5 /* SwiftPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +150,7 @@
 			);
 			name = Test;
 			packageProductDependencies = (
-				1BF7EF5925274469002DE5FC /* MPS */,
+				1B8888B22527517A003717E5 /* SwiftPackage */,
 			);
 			productName = Test;
 			productReference = 1BF7EF1F2527442A002DE5FC /* Test.app */;
@@ -224,7 +224,7 @@
 			);
 			mainGroup = 1BF7EF162527442A002DE5FC;
 			packageReferences = (
-				1BF7EF5825274469002DE5FC /* XCRemoteSwiftPackageReference "MSupport" */,
+				1B8888B12527517A003717E5 /* XCRemoteSwiftPackageReference "SPM" */,
 			);
 			productRefGroup = 1BF7EF202527442A002DE5FC /* Products */;
 			projectDirPath = "";
@@ -603,21 +603,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1BF7EF5825274469002DE5FC /* XCRemoteSwiftPackageReference "MSupport" */ = {
+		1B8888B12527517A003717E5 /* XCRemoteSwiftPackageReference "SPM" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/saileshsuri837/MSupport.git";
+			repositoryURL = "https://github.com/saileshsuri837/SPM.git";
 			requirement = {
-				branch = test;
+				branch = master;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1BF7EF5925274469002DE5FC /* MPS */ = {
+		1B8888B22527517A003717E5 /* SwiftPackage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1BF7EF5825274469002DE5FC /* XCRemoteSwiftPackageReference "MSupport" */;
-			productName = MPS;
+			package = 1B8888B12527517A003717E5 /* XCRemoteSwiftPackageReference "SPM" */;
+			productName = SwiftPackage;
 		};
 /* End XCSwiftPackageProductDependency section */
 
