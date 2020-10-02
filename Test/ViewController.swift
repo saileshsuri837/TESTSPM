@@ -6,14 +6,12 @@
 //
 
 import UIKit
-import SwiftPackage
-import Payment
+import MobilePaymentFramework
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(MobilePayment().test)
         // Do any additional setup after loading the view.
     }
 
