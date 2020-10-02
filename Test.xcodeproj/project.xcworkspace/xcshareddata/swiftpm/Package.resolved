@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MPS",
+        "repositoryURL": "https://github.com/saileshsuri837/MSupport.git",
+        "state": {
+          "branch": "test",
+          "revision": "3b813eeb2d69061da6a1f3de10914c2c4a07f2a7",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
