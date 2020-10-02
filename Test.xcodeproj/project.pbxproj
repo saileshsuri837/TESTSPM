@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B8888B32527517A003717E5 /* SwiftPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 1B8888B22527517A003717E5 /* SwiftPackage */; };
+		1B8888CA25275739003717E5 /* Payment in Frameworks */ = {isa = PBXBuildFile; productRef = 1B8888C925275739003717E5 /* Payment */; };
 		1BF7EF232527442A002DE5FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF7EF222527442A002DE5FC /* AppDelegate.swift */; };
 		1BF7EF252527442A002DE5FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF7EF242527442A002DE5FC /* SceneDelegate.swift */; };
 		1BF7EF272527442A002DE5FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF7EF262527442A002DE5FC /* ViewController.swift */; };
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B8888B32527517A003717E5 /* SwiftPackage in Frameworks */,
+				1B8888CA25275739003717E5 /* Payment in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +150,7 @@
 			);
 			name = Test;
 			packageProductDependencies = (
-				1B8888B22527517A003717E5 /* SwiftPackage */,
+				1B8888C925275739003717E5 /* Payment */,
 			);
 			productName = Test;
 			productReference = 1BF7EF1F2527442A002DE5FC /* Test.app */;
@@ -224,7 +224,7 @@
 			);
 			mainGroup = 1BF7EF162527442A002DE5FC;
 			packageReferences = (
-				1B8888B12527517A003717E5 /* XCRemoteSwiftPackageReference "SPM" */,
+				1B8888C825275739003717E5 /* XCRemoteSwiftPackageReference "Payment" */,
 			);
 			productRefGroup = 1BF7EF202527442A002DE5FC /* Products */;
 			projectDirPath = "";
@@ -603,21 +603,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1B8888B12527517A003717E5 /* XCRemoteSwiftPackageReference "SPM" */ = {
+		1B8888C825275739003717E5 /* XCRemoteSwiftPackageReference "Payment" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/saileshsuri837/SPM.git";
+			repositoryURL = "https://github.com/saileshsuri837/Payment.git";
 			requirement = {
-				branch = master;
+				branch = sp_init;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1B8888B22527517A003717E5 /* SwiftPackage */ = {
+		1B8888C925275739003717E5 /* Payment */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1B8888B12527517A003717E5 /* XCRemoteSwiftPackageReference "SPM" */;
-			productName = SwiftPackage;
+			package = 1B8888C825275739003717E5 /* XCRemoteSwiftPackageReference "Payment" */;
+			productName = Payment;
 		};
 /* End XCSwiftPackageProductDependency section */
 

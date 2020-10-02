@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import SwiftPackage
 import Payment
 
 class ViewController: UIViewController {
